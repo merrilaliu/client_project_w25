@@ -1,7 +1,8 @@
 a[href=""]{
-     position: absolute;
-     top: -50px;
-     left: 0;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    color: white;
 }
 
 a[href=""]:focus{
@@ -12,10 +13,9 @@ a[href=""]:focus{
     font-weight: bold;
     outline: 5px solid yellow;
     background-color: #ffcb05;
-    color: #00274c;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover, nav a:focus, footer a:hover, footer a:focus{
     text-decoration: underline;
     outline: 5px solid yellow;
     background-color: #ffcb05;
